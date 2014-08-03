@@ -5,4 +5,5 @@ echo "Creating command line shortcut ...";
 echo "phpdox() {">>~/.bashrc
 echo "php $PWD/get_content.php \$1">>~/.bashrc
 echo "}">>~/.bashrc
+source ~/.bashrc
 echo "Successful... Enjoy!\n\nUsage : phpdox <command_name>\n";
