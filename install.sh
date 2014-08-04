@@ -1,9 +1,14 @@
 #!/bin/bash
 
-echo "PHPDOX : Command Line Documentation Tool\n\n";
-echo "Creating command line shortcut ...";
-echo "phpdox() {">>~/.bashrc
-echo "php $PWD/get_content.php \$1">>~/.bashrc
-echo "}">>~/.bashrc
+##############################
+# phpdox installation script #
+##############################
+
+echo -e "PHPDOX : Command Line Documentation for PHP\n\n"
+echo -e "Creating command line shortcut..."
+echo -e "\n# Function to execute phpdox via command line" >> ~/.bashrc
+echo -e "phpdox() {" >> ~/.bashrc
+echo -e "php $PWD/get_content.php \$1" >> ~/.bashrc
+echo -e "}" >> ~/.bashrc
+echo -e "Installation successful\n\nUsage : phpdox <function_name>\n"
 source ~/.bashrc
-echo "Successful... Enjoy!\n\nUsage : phpdox <command_name>\n";

@@ -1,24 +1,19 @@
 phpdox
 ======
 
-PHP terminal documentation tool
-
-CLI tool to find out about php functions and more.(currently in pre-alpha stage)
+Command line documentation tool for PHP. 
+Get info of any PHP function on your terminal using it.
 
 ###Installation
 
-1. Clone the repository to your system.<br>
-<code>git clone https://github.com/ds406/phpdox.git</code>
-or<br>
-<code>git@github.com:ds406/phpdox.git</code>
-2. Navigate to the cloned repository in your terminal and run<br>
-<code>bash install.sh</code>
-3. Thats it. Now, you're good to go.
+* Clone the github repository `git clone https://github.com/ds406/phpdox.git`
+* Navigate to the cloned repository. `cd phpdox`
+* Type `bash install.sh`
+* Run the application by `phpdox function_name`
 
 ###Usage
 
-To know about a particular function, just type:<br>
-<code>phpdox \<function_name\> </code>
+To know about a particular function, run `phpdox function_name`
 
 ###Dependencies
 
@@ -33,6 +28,9 @@ php-cli and php are required to be installed
 * Option to update documentation
 * View documentation from online sources
 
-Note : 
-Currently only function documentation is supported by this utility.
-There's lot more to be updated, so stay tuned.
+###Contributors
+* Deepak Sharma
+* Shivam Dixit
+* Aayush Kumar
+
+Note: This tool is currently in alpha version. More features coming soon.
